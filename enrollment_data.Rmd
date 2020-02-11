@@ -1,0 +1,16 @@
+---
+title: "enrollment_data"
+author: "Matej Cerman"
+date: "11 2 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(readxl)
+enrollment_data <- read_xlsx("class_enrollment_summary_by_term_2.11.20.xlsx")
+2```
+
